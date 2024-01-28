@@ -77,9 +77,10 @@ Pull the image
 
 Run the image
 ```bash
-   docker run -p 8080:80 arup1221/api_wrappers:0.1
+   docker run -p 8000:8000 arup1221/api_wrappers:0.1
    ```
 
+get output in  http://0.0.0.0:8000/ 
 you get a output in http://localhost:8000/
 
 <br>
