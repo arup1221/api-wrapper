@@ -103,3 +103,10 @@ Then `api/getInteractions` make a post request
    ```
 
 you get the api HTTP request information(Ip and Timestamp).
+
+
+![Test](https://github.com/arup1221/api-wrapper/blob/main/images/Screenshot%202024-01-28%20at%209.50.22%E2%80%AFPM.png)
+
+
+![Test](https://github.com/arup1221/api-wrapper/blob/main/images/Screenshot%202024-01-28%20at%209.51.17%E2%80%AFPM.png)
+
