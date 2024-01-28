@@ -1,6 +1,6 @@
 # Interactsh API Wrapper
 
-This API wrapper is designed to interact with the Interactsh API using FastAPI. It provides two endpoints for different functionalities.
+This API wrapper is designed to interact with the Interactsh server API using FastAPI. It provides two endpoints for different functionalities.
 
 ### Endpoints
 
@@ -86,7 +86,7 @@ you get a output in http://localhost:8000/
 
 ### Output
 
-you get the api of interactsh in `api/getURL` path, by making a `GET` request.
+you get the apis(now 5) of interactsh in `api/getURL` path, by making a `GET` request.
 
 Form  the apis take one api and make a HTTP request 
 
