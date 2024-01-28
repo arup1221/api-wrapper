@@ -3,9 +3,9 @@ import threading
 import os
 
 def run_interactsh(session_number):
-    # path = "/Users/arupgope"  #change to your actual golang path 
-    # command = [f"{path}/go/bin/interactsh-client"]
-    command = "./interactsh-client"
+    path = "/Users/arupgope"  #change to your actual golang path 
+    command = [f"{path}/go/bin/interactsh-client"]
+    # command = "./interactsh-client"
 
     output_file = os.path.join("data", f"out{session_number}.txt")
 
