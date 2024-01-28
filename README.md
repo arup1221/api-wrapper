@@ -80,8 +80,8 @@ Run the image
    docker run -p 8000:8000 arup1221/api_wrappers:0.1
    ```
 
-get output in  http://0.0.0.0:8000/ 
-you get a output in http://localhost:8000/
+you get output in  http://0.0.0.0:8000/ 
+
 
 <br>
 
