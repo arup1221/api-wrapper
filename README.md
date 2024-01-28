@@ -89,15 +89,17 @@ you get output in  http://0.0.0.0:8000/
 
 you get the apis(now 5) of interactsh in `api/getURL` path, by making a `GET` request.
 
+
+
+<br>
+
+![Test](https://github.com/arup1221/api-wrapper/blob/main/images/Screenshot%202024-01-28%20at%209.50.22%E2%80%AFPM.png)
+
 Form  the apis take one api and make a HTTP request 
 
 ```bash
    curl -H "myrandomheader: dummy" -X POST -d "random values"  <URL>
    ```
-
-<br>
-
-![Test](https://github.com/arup1221/api-wrapper/blob/main/images/Screenshot%202024-01-28%20at%209.50.22%E2%80%AFPM.png)
 
 Then `api/getInteractions` make a `POST` request
 ```bash
