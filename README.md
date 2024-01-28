@@ -95,6 +95,10 @@ Form  the apis take one api and make a HTTP request
    curl -H "myrandomheader: dummy" -X POST -d "random values"  <URL>
    ```
 
+<br>
+
+![Test](https://github.com/arup1221/api-wrapper/blob/main/images/Screenshot%202024-01-28%20at%209.50.22%E2%80%AFPM.png)
+
 Then `api/getInteractions` make a `POST` request
 ```bash
    {
@@ -104,9 +108,7 @@ Then `api/getInteractions` make a `POST` request
 
 you get the api HTTP request information(Ip and Timestamp).
 
-<br>
 
-![Test](https://github.com/arup1221/api-wrapper/blob/main/images/Screenshot%202024-01-28%20at%209.50.22%E2%80%AFPM.png)
 
 <br>
 
