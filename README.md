@@ -95,7 +95,7 @@ Form  the apis take one api and make a HTTP request
    curl -H "myrandomheader: dummy" -X POST -d "random values"  <URL>
    ```
 
-Then `api/getInteractions` make a post request
+Then `api/getInteractions` make a `POST` request
 ```bash
    {
   "url": "cmr7t1hk5epn5ksnulk0fita6ijo1rds1.oast.pro"
