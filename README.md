@@ -59,9 +59,9 @@ You should have installed the golang to install Interactsh. To install the inter
 ```bash
    python3 test_threaded_session.py
    ```
-#### step 2
+#### Step 2
 
-then run the server
+Then run the server
 
 ```bash
    uvicorn myapi:app --reload
@@ -95,7 +95,7 @@ you get the apis(now 5) of interactsh in `api/getURL` path, by making a `GET` re
 
 ![Test](https://github.com/arup1221/api-wrapper/blob/main/images/Screenshot%202024-01-28%20at%209.50.22%E2%80%AFPM.png)
 
-Form  the apis take one api and make a HTTP request 
+From  the apis take one api and make a HTTP request 
 
 ```bash
    curl -H "myrandomheader: dummy" -X POST -d "random values"  <URL>
@@ -105,7 +105,7 @@ Then `api/getInteractions` make a `POST` request
 ```bash
    {
   "url": "cmr7t1hk5epn5ksnulk0fita6ijo1rds1.oast.pro"
-}
+   }
    ```
 
 you get the api HTTP request information(Ip and Timestamp).
