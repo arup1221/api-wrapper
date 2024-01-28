@@ -18,8 +18,8 @@ def run_interactsh(session_number):
         return_code = process.returncode
         print(f"Session {session_number} exited with return code: {return_code}")
 
-# n = int(input("Enter how many sessions you want to run:"))
-n = 5
+n = int(input("Enter how many sessions you want to run:"))
+# n = 5
 # Create threads for sessions
 threads = []
 if(n<=5):
